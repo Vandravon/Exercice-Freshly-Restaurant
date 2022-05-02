@@ -1,0 +1,1 @@
+var mixer = mixitup('.all-menus');

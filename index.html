@@ -1,0 +1,184 @@
+<!DOCTYPE>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="icon" type="image/png" href="ressources/images/favicon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/carousel.css" />
+        <link type="text/css" rel="stylesheet" href="css/normalize.css" />
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <script src="https://kit.fontawesome.com/e856ee4135.js" crossorigin="anonymous"></script>
+        <title>FRESHLY RESTAURANT</title>
+    </head>
+    <body>
+
+            <!-- La page courante est différenciée par le fond marron.
+            Au survol des rubriques, celles-ci passent progressivement à la couleur blanche pour le texte et rouge pour le fond. -->
+            <header class="background-header">
+                
+                <div class="flex-header container">
+
+                    <div class="header-logo">
+                        <div class="header-logo-image"><img src="ressources/images/logo.png" /></div>
+                        <div class="header-logo-h1"><h1><i class="fa-solid fa-star"></i> Freshly restaurant <i class="fa-solid fa-star"></i></h1></div>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li class="bold"><a href="#">Home</a></li>
+                            <li class="bold"><a href="#">About</a></li>
+                            <li class="bold"><a href="#">Menus</a></li>
+                            <li class="bold"><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+            </header>
+
+            <div class="container">
+
+                <!-- Le plugin utilisé pour le slider de la page d'accueil est : slick slider (http://kenwheeler.github.io/slick/) que vous devrez personnaliser pour obtenir le rendu tel que sur la maquette. -->
+                <section class="carousel-body">
+
+                    <div class="carousel-container">
+                        <button id="left-btn"><i class="arrow"></i></button>
+                        <img id="carousel" src="" alt="">
+                        <button id="right-btn"><i class="arrow"></i></button>
+                    </div>
+
+                    <!-- Carousel's pictures are in the file "js/carousel.js" -->
+
+                </section>
+
+                <!-- Au survol des images des menus, celles-ci s'opacifient progressivement (couleur rgba(76,67,67,.9) ) et affichent le prix du menu (cf. capture d'écran)
+
+                Au survol des éléments "See more" le fond passe progressivement à la couleur rouge. -->
+
+                <section>
+
+                    <div class="restaurant-title"><h2><i class="fa-solid fa-star"></i> Welcome to Freshly Restaurant <i class="fa-solid fa-star"></i></h2></div>
+
+                    <div class="flex-restaurant">
+                        <div class="restaurant-image"><img src="ressources/images/location.jpg" /></div>
+                        <div class="restaurant-description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, similique nostrum sapiente quaerat veniam sint praesentium voluptatem aliquid totam, eum iste inventore quibusdam a reprehenderit assumenda ea. Asperiores iusto non repudiandae, consequuntur inventore est dolore perspiciatis vitae consectetur labore voluptatibus.</p>
+                            <br>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores hic a consectetur laudantium modi, accusantium dolores eum obcaecati odio aspernatur. Quo sunt quibusdam laudantium, consectetur reiciendis esse debitis non. Commodi quae eaque ad consequuntur at inventore iure voluptas. Tenetur, laudantium!</p>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section>
+
+                    <div class="menus-main-title"><h2><i class="fa-solid fa-star"></i> Special menus <i class="fa-solid fa-star"></i></h2></div>
+
+                    <div class="flex-menus">
+
+                        <div class="menu-single">
+                            <div class="menu-title"><h3><i class="fa-solid fa-star"></i> Meat menu <i class="fa-solid fa-star"></i></h3></div>
+                            <div class="menu-image">
+                                <img class="menu-image-img" src="ressources/images/meat-menu.jpg" />
+                                <div class="menu-image-box-price">
+                                    <div class="menu-image-price">
+                                        <p>17 $<br>soft drinks and desert included + taxes</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+
+                            <div class="composition">
+                                <p><i class="fa-solid fa-star"></i> Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-star"></i> Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-star"></i> Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-star"></i> Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-star"></i> Lorem ipsum dolor sit.</p>
+                            </div>
+                            <a href="#" class="button-more bold"><img src="ressources/images/fork-knife.svg" /> See more</a>
+                        </div>
+
+                        <div class="menu-single">
+                            <h3 class="menu-title"><i class="fa-solid fa-star"></i> Fish menu <i class="fa-solid fa-star"></i></h3>
+                            <div class="menu-image">
+                                <img class="menu-image-img" src="ressources/images/fish-menu.jpg" />
+                                <div class="menu-image-box-price">
+                                    <div class="menu-image-price">
+                                        <p>19 $<br>soft drinks and desert included + taxes</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="composition">
+                                <p><i class="fa-solid fa-star"></i> Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-star"></i> Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-star"></i> Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-star"></i> Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-star"></i> Lorem ipsum dolor sit.</p>
+                            </div>
+                            <a href="#" class="button-more bold"><img src="ressources/images/fork-knife.svg" /> See more</a>
+                        </div>
+
+                        <div class="menu-single">
+                            <h3 class="menu-title"><i class="fa-solid fa-star"></i> Vegetarian menu <i class="fa-solid fa-star"></i></h3>
+                            <div class="menu-image">
+                                <img class="menu-image-img" src="ressources/images/vegetarian-menu.jpg" />
+                                <div class="menu-image-box-price">
+                                    <div class="menu-image-price">
+                                        <p>18 $<br>soft drinks and desert included + taxes</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="composition">
+                                <p><i class="fa-solid fa-star"></i> Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-star"></i> Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-star"></i> Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-star"></i> Lorem ipsum dolor sit.</p>
+                                <p><i class="fa-solid fa-star"></i> Lorem ipsum dolor sit.</p>
+                            </div>
+                            <a href="#" class="button-more bold"><img src="ressources/images/fork-knife.svg" /> See more</a>
+                        </div>
+
+                </section>
+
+            </div>
+
+            <footer class="background-footer">
+                
+                <div class="flex-footer container">
+
+                    <div>
+                        <div class="footer-title"><h4>Opening hours</h4></div>
+                        <p>Monday: Closed</p>
+                        <p>Tue-Wed : 9am - 10pm</p>
+                        <p>Thu-Fri : 9am - 10pm</p>
+                        <p>Sat-Sun : 5pm - 10pm</p>
+                    </div>
+
+                    <div>
+                        <div class="footer-title"><h4>Opening hours</h4></div>
+                        <address>
+                            13 Christopher Street<br>
+                            New York,<br>
+                            NY 10014-3543<br>
+                            <a href="tel:+0120008009999">+01 2000 800 9999</a>
+                        </address>
+                    </div>
+
+                    <div>
+                        <div class="footer-title"><h4>Social Network</h4></div>
+                        <p><a href="#"><i class="fa-brands fa-facebook-f fa-2x"></i></a> <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a> <a href="#"><i class="fa-brands fa-pinterest-p fa-2x"></i></a></p>
+                    </div>
+
+                </div>
+
+            </footer>
+
+        </div>
+
+    <script type="text/javascript" src="js/carousel.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="icon" type="image/png" href="ressources/images/favicon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/mixitup.css" />
+        <link type="text/css" rel="stylesheet" href="css/normalize.css" />
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <link type="text/css" rel="stylesheet" href="css/style-menu.css" />
+        <script src="https://kit.fontawesome.com/e856ee4135.js" crossorigin="anonymous"></script>
+        <title>FRESHLY RESTAURANT</title>
+    </head>
+    <body>
+
+            <!-- La page courante est différenciée par le fond marron.
+            Au survol des rubriques, celles-ci passent progressivement à la couleur blanche pour le texte et rouge pour le fond. -->
+            <header class="background-header">
+                
+                <div class="flex-header container">
+
+                    <div class="header-logo">
+                        <div class="header-logo-image"><img src="ressources/images/logo.png" /></div>
+                        <div class="header-logo-h1"><h1><i class="fa-solid fa-star"></i> Freshly restaurant <i class="fa-solid fa-star"></i></h1></div>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li class="bold"><a href="#">Home</a></li>
+                            <li class="bold"><a href="#">About</a></li>
+                            <li class="bold"><a href="#">Menus</a></li>
+                            <li class="bold"><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+            </header>
+
+            <div class="container">
+
+                <section class="menu-top">
+                    <div class="menus-h2"><h2><i class="fa-solid fa-star"></i> Details of our menus <i class="fa-solid fa-star"></i></h2></div>
+                    <div class="menus-description"><p>Choose your main course according to your menu !</p></div>
+                </section>
+
+                <section>
+
+                    <div class="all-menus">
+
+                        <div class="menus-sorter">
+
+                            <button type="button" data-filter="all" class="button-all bold">ALL</button>
+                            <button type="button" data-filter=".meat" class="bold">MEAT</button>
+                            <button type="button" data-filter=".vegan" class="bold">VEGAN</button>
+                            <button type="button" data-filter=".fish" class="bold">FISH</button>
+
+                            <!-- <button type="button" data-filter="all">All</button>
+                            <button type="button" data-filter=".category-a">Category A</button>
+                            <button type="button" data-filter=".category-b">Category B</button>
+                            <button type="button" data-filter=".category-c">Category C</button> -->
+
+                        </div>
+
+                        <div class="menus-show">
+
+                            <div class="mix fish menus-box-image">
+                                <div class="menus-img"><img src="ressources/menus/fish-01.jpg" /></div>
+                                <div class="menus-box-msg">
+                                    <div class="menus-msg">
+                                        <div><img src="ressources/images/fork-knife.svg" /><br>Grilled mussels</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mix vegan menus-box-image">
+                                <div class="menus-img"><img src="ressources/menus/vegan-03.jpg" /></div>
+                                <div class="menus-box-msg">
+                                    <div class="menus-msg">
+                                        <div><img src="ressources/images/fork-knife.svg" /><br>Mixed vegetables</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mix meat menus-box-image">
+                                <div class="menus-img"><img src="ressources/menus/meat-03.jpg" /></div>
+                                <div class="menus-box-msg">
+                                    <div class="menus-msg">
+                                        <div><img src="ressources/images/fork-knife.svg" /><br>Freshly kebabs</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mix fish menus-box-image">
+                                <div class="menus-img"><img src="ressources/menus/fish-02.jpg" /></div>
+                                <div class="menus-box-msg">
+                                    <div class="menus-msg">
+                                        <div><img src="ressources/images/fork-knife.svg" /><br>Cajun shrimp</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mix meat menus-box-image">
+                                <div class="menus-img"><img src="ressources/menus/meat-01.jpg" /></div>
+                                <div class="menus-box-msg">
+                                    <div class="menus-msg">
+                                        <div><img src="ressources/images/fork-knife.svg" /><br>Freshly burger</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mix vegan menus-box-image">
+                                <div class="menus-img"><img src="ressources/menus/vegan-02.jpg" /></div>
+                                <div class="menus-box-msg">
+                                    <div class="menus-msg">
+                                        <div><img src="ressources/images/fork-knife.svg" /><br>Grilled eggplants</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mix meat menus-box-image">
+                                <div class="menus-img"><img src="ressources/menus/meat-02.jpg" /></div>
+                                <div class="menus-box-msg">
+                                    <div class="menus-msg">
+                                        <div><img src="ressources/images/fork-knife.svg" /><br>Beef stew with pasta</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mix fish menus-box-image">
+                                <div class="menus-img"><img src="ressources/menus/fish-03.jpg" /></div>
+                                <div class="menus-box-msg">
+                                    <div class="menus-msg">
+                                        <div><img src="ressources/images/fork-knife.svg" /><br>Grilled salmon</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mix vegan menus-box-image">
+                                <div class="menus-img"><img src="ressources/menus/vegan-01.jpg" /></div>
+                                <div class="menus-box-msg">
+                                    <div class="menus-msg">
+                                        <div><img src="ressources/images/fork-knife.svg" /><br>Vegetable Jambalaya</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="mix menu-box fish"><img src="ressources/menus/fish-01.jpg"></div>
+                            <div class="mix vegan"><img src="ressources/menus/vegan-03.jpg" /></div>
+                            <div class="mix meat"><img src="ressources/menus/meat-03.jpg" /></div>
+                            <div class="mix fish"><img src="ressources/menus/fish-02.jpg" /></div>
+                            <div class="mix meat"><img src="ressources/menus/meat-01.jpg" /></div>
+                            <div class="mix vegan"><img src="ressources/menus/vegan-02.jpg" /></div>
+                            <div class="mix meat"><img src="ressources/menus/meat-02.jpg" /></div>
+                            <div class="mix fish"><img src="ressources/menus/fish-03.jpg" /></div>
+                            <div class="mix vegan"><img src="ressources/menus/vegan-01.jpg" /></div> -->
+
+                        </div>
+                
+                    </div>
+
+                </section>
+
+                <section>
+
+                    <div class="menus-h2"><h2><i class="fa-solid fa-star"></i> Deserts <i class="fa-solid fa-star"></i></h2></div>
+                    <div class="menus-description"><p>Here are the deserts you can choose to finish your meal (included in your menu).</p></div>
+                    
+                    <div class="menus-show">
+
+                        <div class="menus-box-image">
+                            <div class="menus-img"><img src="ressources/menus/desert-01.jpg" /></div>
+                            <div class="menus-box-msg">
+                                <div class="menus-msg">
+                                    <div><img src="ressources/images/fork-knife.svg" /><br>Tiramisu</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menus-box-image">
+                            <div class="menus-img"><img src="ressources/menus/desert-02.jpg" /></div>
+                            <div class="menus-box-msg">
+                                <div class="menus-msg">
+                                    <div><img src="ressources/images/fork-knife.svg" /><br>Freshly Pancakes</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menus-box-image">
+                            <div class="menus-img"><img src="ressources/menus/desert-03.jpg" /></div>
+                            <div class="menus-box-msg">
+                                <div class="menus-msg">
+                                    <div><img src="ressources/images/fork-knife.svg" /><br>Redberries cup</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section>
+
+                    <div class="menus-h2"><h2><i class="fa-solid fa-star"></i> Cocktails <i class="fa-solid fa-star"></i></h2></div>
+                    <div class="menus-description"><p>Soft drinkgs are included, but if you want you can order one of our excellent cocktails (not included in the menu).</p></div>
+
+                    <div class="menus-show">
+                        <div class="menus-box-image">
+                            <div class="menus-img"><img src="ressources/menus/drink-01.jpg" /></div>
+                            <div class="menus-box-msg">
+                                <div class="menus-msg">
+                                    <div><img src="ressources/images/fork-knife.svg" /><br>Winter Whiskey</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menus-box-image">
+                            <div class="menus-img"><img src="ressources/menus/drink-02.jpg" /></div>
+                            <div class="menus-box-msg">
+                                <div class="menus-msg">
+                                    <div><img src="ressources/images/fork-knife.svg" /><br>Paloma cocktail</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menus-box-image">
+                            <div class="menus-img"><img src="ressources/menus/drink-03.jpg" /></div>
+                            <div class="menus-box-msg">
+                                <div class="menus-msg">
+                                    <div><img src="ressources/images/fork-knife.svg" /><br>Bellini cocktail</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                
+            </div>
+
+            <footer class="background-footer">
+                
+                <div class="flex-footer container">
+
+                    <div>
+                        <div class="footer-title"><h4>Opening hours</h4></div>
+                        <p>Monday: Closed</p>
+                        <p>Tue-Wed : 9am - 10pm</p>
+                        <p>Thu-Fri : 9am - 10pm</p>
+                        <p>Sat-Sun : 5pm - 10pm</p>
+                    </div>
+
+                    <div>
+                        <div class="footer-title"><h4>Opening hours</h4></div>
+                        <address>
+                            13 Christopher Street<br>
+                            New York,<br>
+                            NY 10014-3543<br>
+                            <a href="tel:+0120008009999">+01 2000 800 9999</a>
+                        </address>
+                    </div>
+
+                    <div>
+                        <div class="footer-title"><h4>Social Network</h4></div>
+                        <p><a href="#"><i class="fa-brands fa-facebook-f fa-2x"></i></a> <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a> <a href="#"><i class="fa-brands fa-pinterest-p fa-2x"></i></a></p>
+                    </div>
+
+                </div>
+
+            </footer>
+
+        </div>
+
+        <script src="js/mixitup.min.js"></script>
+        <script src="js/mixitup.js"></script>
+
+    </body>
+
+</html>

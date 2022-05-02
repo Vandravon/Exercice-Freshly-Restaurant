@@ -1,0 +1,121 @@
+.menus-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+.menus-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+
+/******
+MIXITUP
+******/
+
+button {
+
+    background: #ebe3db;
+    padding: 2% 3%;
+    display: flex;
+}
+
+/*************
+MENUS SORTER
+*************/
+
+.button-all {
+    background: #950000;
+    color: white;
+}
+
+.all-menus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menus-sorter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin: 1%;
+}
+.menus-show {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 96%;
+    background-color: #ebe3db;
+    margin: 2% auto;
+}
+.menus-show img {
+    width: 100%;
+}
+.menu-box {
+    width: 45%;
+    margin: 2% 0;
+}
+
+.menus-box-image {
+    position: relative;
+    height: auto;
+    width: 45%;
+    margin: 2% 0;
+}
+.menus-img {
+    width: 100%;
+}
+.menus-box-msg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(76,67,67,.9);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+.menus-msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    border: 5px solid white;
+}
+.menus-msg img {
+    width: 20%;
+    height: auto;
+}
+.menus-box-image:hover .menus-box-msg {
+    visibility: visible;
+    opacity: 1;
+}
+.menus-box-image:hover {
+    transform: scale(1.1);
+}
+
+@media (min-width: 780px) and (max-width: 1399px) {
+    .menu-box, .menus-box-image {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .menu-box, .menus-box-image {
+        width: 30%;
+    }    
+}
+
+
